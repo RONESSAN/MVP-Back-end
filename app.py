@@ -10,7 +10,7 @@ from schemas import *
 
 from datetime import datetime
 
-info = Info(title="Minha API", version="1.0.0")
+info = Info(title="Gescom WEB", version="1.0.0")
 app = OpenAPI(__name__, info=info)
 CORS(app)
 
